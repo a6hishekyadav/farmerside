@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    background-image: url("./images/tree.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    width: 100%;
+    padding: 25px;
+}
+
+.header_sell{
+  background-color: #282c34;
+  min-height: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(28, 151, 114);
+  border-style:groove;
+  border-bottom-right-radius: 2rem;
+  
+}
+.sidebar{
+    background: rgb(100, 148, 88);
+    color: #fff;
+    height: 100vh;
+    width: 350px;
+    border-style: groove;
+    transition: all 0.5s;
+
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:25px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:rgb(28, 151, 114);
+    color: rgb(243, 237, 237);
+    transition: all 0.5s;
+}
+.active{
+    background: rgb(20, 56, 3);
+    color: rgb(188, 240, 191);
+}
+.icon, .link_text{
+    font-size: 20px;
+}
