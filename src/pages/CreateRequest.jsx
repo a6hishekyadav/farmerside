@@ -7,11 +7,11 @@ function CreateRequest() {
     return (
       <>
       <h1>Create Request</h1><br />
-      <div className='requestdiv'>
+      <div className='record_div'>
       <form>
         <label>Select Product : </label>
           <select>
-          <option value="opt">Select Product to Add</option>
+          <option value="opt">Select Products to Add</option>
            <option value="wheat">Wheat</option>
            <option value="rice">Rice</option>
            <option value="corn">Corn</option>

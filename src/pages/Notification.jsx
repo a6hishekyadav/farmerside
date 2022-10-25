@@ -2,9 +2,11 @@ import React from 'react';
 
 const Notification = () => {
     return (
-        <div>
-            <h1>Notifications</h1>
-        </div>
+       <>
+       <h1>Notifications</h1><br />
+       <div className='record_div' >
+        <label htmlFor="notification">Your request referencing id {} is {}</label>
+        </div></>
     );
 };
 
