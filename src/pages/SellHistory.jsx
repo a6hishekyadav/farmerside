@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const SellHistory = () => {
     return (
         <>
@@ -7,9 +8,10 @@ const SellHistory = () => {
         <div className='record_div'>
             <label htmlFor="requestid"><b>Request id :</b> {}</label><br />
             <label htmlFor="productName">Product : {} </label><br />
-            <label htmlFor="Quantity"> Quantity : {}</label><br />
+            <label htmlFor="Quantity"> Quantity : </label><br />
             <label htmlFor="cost"> Price/Unit : {}</label><br />
             <label htmlFor="Total Cost"> Total Cost : {}</label><br />
+            <label htmlFor="status"><b>Status :</b>  {} </label><br />
         </div>
         </>
     );
