@@ -5,7 +5,7 @@
 }
 .container{
     display:flex;
-    background-image: url("./images/tree.svg");
+    /* background-image: url("./images/tree.svg"); */
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -64,4 +64,43 @@ main{
 }
 .icon, .link_text{
     font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    height: 60vh;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordian {
+    width: 600px;
+}
+
+.item {
+    background: #e1f0e5 ;
+    margin-bottom: 15px;
+    padding: 20px 40px;
+}
+
+.title {
+    color: #39852b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: #8b7f75;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
 }
