@@ -3,6 +3,7 @@
     padding:0;
     text-decoration: none;
 }
+
 .container{
     display:flex;
     /* background-image: url("./images/tree.svg"); */
@@ -103,4 +104,34 @@ main{
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.accountDetails{
+    display: grid;
+    padding: .8rem;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    height: 50%;
+    margin-top: 3rem;
+   
+    
+}
+
+.profile-pic img{
+    padding: .5rem;
+    border: 1px solid  #0a773b;
+    width: 20rem;
+    height: 15rem;
+}
+
+.details{
+    border: 1px dashed #39852b;
+    padding: 1rem;
+}
+
+label{
+    color: #0a773b;
+    display: block;
+    padding-bottom: 3px;
+
 }
