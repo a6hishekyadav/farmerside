@@ -1,5 +1,65 @@
-.record_div{
-    padding: 1rem;
-    border: 2px dotted rgb(24, 126, 70);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.record_div {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
     align-items: center;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 20px 40px 20px;
+    border: 2px dotted rgb(24, 126, 70);
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.Products {
+    width: 63%;
+}
+
+#quantity {
+    width: 55%;
+}
+
+.sell_history {
+        border: 2px dotted rgb(24, 126, 70);
+        background-color: #f2f2f2;
+        font-size: 23px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 20px;
+}
+
+.all_notifications {
+        border: 2px dotted rgb(24, 126, 70);
+        background-color: #f2f2f2;
+        align-items: center;
+        font-size: 23px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 20px;
+}
+
+input[type="number"],
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 0px 5px 0 5px;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(84, 129, 73);
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(68, 95, 68);
 }

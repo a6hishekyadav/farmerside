@@ -5,7 +5,7 @@ const SellHistory = () => {
     return (
         <>
         <h1>Sell History</h1><br />
-        <div className='record_div'>
+        <div className='sell_history'>
             <label htmlFor="requestid"><b>Request id :</b> {}</label><br />
             <label htmlFor="productName">Product : {} </label><br />
             <label htmlFor="Quantity"> Quantity : </label><br />
